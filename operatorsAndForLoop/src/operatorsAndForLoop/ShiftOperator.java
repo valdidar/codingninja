@@ -1,7 +1,5 @@
 package operatorsAndForLoop;
-
 import java.util.Scanner;
-
 public class ShiftOperator {
 	public static void printbinary(int n) {
 		int[] binary = new int[35];
