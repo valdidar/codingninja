@@ -1,6 +1,6 @@
 package fundamentals;
 
-public class whileExperiments {
+public class WhileExperiments {
 	public static void main(String[] args) {
 
 		   int i=1;

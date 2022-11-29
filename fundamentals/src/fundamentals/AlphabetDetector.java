@@ -2,7 +2,7 @@ package fundamentals;
 
 import java.util.Scanner;
 
-public class alphabetDetector {
+public class AlphabetDetector {
 	public static void main(String[] args) {
         // Write your code here
         Scanner s=new Scanner(System.in);

@@ -1,6 +1,6 @@
 package fundamentals;
 
-public class relationAndLogicalOperators {
+public class RelationAndLogicalOperators {
 	public static void main(String[] args) {
 		double a1 = 6 / 4;
         int b1  = 6 / 4;

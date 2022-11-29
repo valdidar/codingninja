@@ -1,6 +1,6 @@
 package fundamentals;
 
-public class ascii {
+public class Ascii {
 	public static void main(String[] args) {
 		int a='a';
 		char b=(char) a;

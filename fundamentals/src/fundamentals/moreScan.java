@@ -1,6 +1,6 @@
 package fundamentals;
 	import java.util.Scanner;
-public class moreScan {
+public class MoreScan {
 	public static void main(String[] args) {
 //		try (Scanner s = new Scanner(System.in)) {
 //			String a=s.next();
