@@ -1,19 +1,28 @@
 package Arrays;
 import java.util.Scanner;
 public class InputAndPrintArray {
-	public static int largest(int[] arr) {
-		int arr1[]=new int[arr.length];
-		for(int i=0;i<arr.length;i++) {
-			arr1[i]=arr[i];
-		}
-		for(int i=1;i<arr.length;i++) {
-			if(arr[i]<arr[i-1]) {
-				arr[i-1]+=arr[i];
-				arr[i]=arr[i-1]-arr[i];
-				arr[i-1]-=arr[i];
+	 public static void arange(int[] arr, int n) {
+		 for(int i=0;i<n;i++)
+				if(i%2==0)					
+					arr[i/2]=i+1;
+				else				
+					arr[n-((i+1)/2)]=i+1;
+		 for(int i=0;i<n;i++) {
+				System.out.print(arr[i]+" ");
 			}
-		}
-		return arr[arr.length-1];
+	    }
+	public static int linearSearch(int arr[], int x) {
+		for(int i=1;i<arr.length;i++)
+			if(arr[i]==x)
+				return i;
+		return -1;
+	}
+	public static int largest(int[] arr) {
+		int largest=arr[0];
+		for(int i=1;i<arr.length;i++)
+			if(arr[i]>largest)
+				largest=arr[i];
+		return largest;
 	}
 	public static int sum(int[] arr) {
 		int sum=0;
@@ -38,9 +47,21 @@ public class InputAndPrintArray {
 		}
 	}
 	public static void main(String[] args) {
-		int arr[]=inputArray();
-		printArray(arr);
-		System.out.println(sum(arr));
-		System.out.println(largest(arr));
+		int arr[];
+//		arr=inputArray();
+		
+//		printArray(arr);
+		
+//		System.out.println(sum(arr));
+		
+//		System.out.println(largest(arr));
+		
+//		System.out.println(linearSearch(arr,5));
+		
+//		Scanner s=new Scanner(System.in);
+//		int n=s.nextInt();
+//		arr=new int[n];
+//		arange(arr,n);
+		
 	}
 }
