@@ -1,6 +1,14 @@
 package Arrays;
 import java.util.Scanner;
 public class InputAndPrintArray {
+	public static void swapAlternate(int arr[]) {
+		for(int i=0;i<arr.length/2;i++) {
+			arr[i*2]+=arr[i*2+1];
+			arr[i*2+1]=arr[i*2]-arr[i*2+1];
+			arr[i*2]-=arr[i*2+1];
+		}
+			
+    }
 	 public static void arange(int[] arr, int n) {
 		 for(int i=0;i<n;i++)
 				if(i%2==0)					
@@ -48,7 +56,7 @@ public class InputAndPrintArray {
 	}
 	public static void main(String[] args) {
 		int arr[];
-//		arr=inputArray();
+		arr=inputArray();
 		
 //		printArray(arr);
 		
@@ -63,5 +71,7 @@ public class InputAndPrintArray {
 //		arr=new int[n];
 //		arange(arr,n);
 		
+//		swapAlternate(arr);
+//		printArray(arr);		
 	}
 }
