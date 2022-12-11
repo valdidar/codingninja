@@ -10,5 +10,6 @@ public class Ascii {
 		b=(char)('a'+3);
 		c='a'+3;
 		System.out.println(a+" "+b+" "+c+" "+(char)a+" "+(int)b);
+		
 	}
 }
