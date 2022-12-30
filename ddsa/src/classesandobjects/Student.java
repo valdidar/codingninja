@@ -6,9 +6,9 @@ public class Student {
 	public int getRollNumber() {
 		return rollNumber;
 	}
-	public void setRollNumber(int roll) {
-		if(roll<=0) 
+	public void setRollNumber(int rollNumber) {
+		if(rollNumber<=0) 
 			return;
-		rollNumber=roll;
+		this.rollNumber=rollNumber;
 	}
 }
