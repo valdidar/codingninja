@@ -3,9 +3,9 @@ package classesandobjects;
 public class Student{
 	public String name;
 	final private int rollNumber;
-	static int numStudent=0;
+	private static int numStudent=0;
 	double cgpa;
-	final static double CONVERSIONFACTOR=0.95;
+	public final static double CONVERSIONFACTOR=0.95;
 	//static belong to class and available to all objects
 //	Student(String name, int rollNumber) {
 //		this.rollNumber=rollNumber;
@@ -24,6 +24,9 @@ public class Student{
 	}
 	public int getRollNumber() {
 		return rollNumber;
+	}
+	public static int getNumStudents() {
+		return numStudent;
 	}
 //	public void setRollNumber(int rollNumber) {
 //		if(rollNumber<=0) 

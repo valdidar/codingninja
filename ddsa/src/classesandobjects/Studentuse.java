@@ -13,7 +13,8 @@ public class Studentuse{
 		System.out.println(s2.getRollNumber());
 		System.out.println(s3.name);
 		System.out.println(s3.getRollNumber());
-		System.out.println(Student.numStudent);
+		System.out.println(Student.getNumStudents());
+		//you can still access it through s1.getNumStudents();
 	}
 	
 }
