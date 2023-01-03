@@ -7,7 +7,7 @@ public class tester {
 //	      t.fun();
 //	      System.out.print(Test.a+Test.b);
 		
-		Test.fun1(); 
+//		Test.fun1(); 
 
 	}
 
